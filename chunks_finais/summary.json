@@ -1,0 +1,334 @@
+{
+  "experimentos": [
+    {
+      "document": "attention_is_all_you_need.md",
+      "document_id": "attention_is_all_you_need",
+      "strategy": "markdown_heading",
+      "num_chunks": 26,
+      "avg_chunk_size": 1623.42,
+      "min_chunk_size": 78,
+      "max_chunk_size": 8541
+    },
+    {
+      "document": "attention_is_all_you_need.md",
+      "document_id": "attention_is_all_you_need",
+      "strategy": "2000_sem_overlap",
+      "num_chunks": 24,
+      "avg_chunk_size": 1752.25,
+      "min_chunk_size": 273,
+      "max_chunk_size": 1999
+    },
+    {
+      "document": "attention_is_all_you_need.md",
+      "document_id": "attention_is_all_you_need",
+      "strategy": "1000_sem_overlap",
+      "num_chunks": 50,
+      "avg_chunk_size": 840.14,
+      "min_chunk_size": 469,
+      "max_chunk_size": 1138
+    },
+    {
+      "document": "bert_pretraining.md",
+      "document_id": "bert_pretraining",
+      "strategy": "markdown_heading",
+      "num_chunks": 32,
+      "avg_chunk_size": 2069.25,
+      "min_chunk_size": 47,
+      "max_chunk_size": 11570
+    },
+    {
+      "document": "bert_pretraining.md",
+      "document_id": "bert_pretraining",
+      "strategy": "2000_sem_overlap",
+      "num_chunks": 38,
+      "avg_chunk_size": 1735.92,
+      "min_chunk_size": 203,
+      "max_chunk_size": 1973
+    },
+    {
+      "document": "bert_pretraining.md",
+      "document_id": "bert_pretraining",
+      "strategy": "1000_sem_overlap",
+      "num_chunks": 81,
+      "avg_chunk_size": 813.37,
+      "min_chunk_size": 203,
+      "max_chunk_size": 1032
+    },
+    {
+      "document": "bioetica_e_ia.md",
+      "document_id": "bioetica_e_ia",
+      "strategy": "markdown_heading",
+      "num_chunks": 21,
+      "avg_chunk_size": 2550.33,
+      "min_chunk_size": 115,
+      "max_chunk_size": 8004
+    },
+    {
+      "document": "bioetica_e_ia.md",
+      "document_id": "bioetica_e_ia",
+      "strategy": "2000_sem_overlap",
+      "num_chunks": 31,
+      "avg_chunk_size": 1720.74,
+      "min_chunk_size": 586,
+      "max_chunk_size": 1994
+    },
+    {
+      "document": "bioetica_e_ia.md",
+      "document_id": "bioetica_e_ia",
+      "strategy": "1000_sem_overlap",
+      "num_chunks": 68,
+      "avg_chunk_size": 783.37,
+      "min_chunk_size": 16,
+      "max_chunk_size": 1375
+    },
+    {
+      "document": "escrita_academica_ia.md",
+      "document_id": "escrita_academica_ia",
+      "strategy": "markdown_heading",
+      "num_chunks": 20,
+      "avg_chunk_size": 2340.8,
+      "min_chunk_size": 28,
+      "max_chunk_size": 6768
+    },
+    {
+      "document": "escrita_academica_ia.md",
+      "document_id": "escrita_academica_ia",
+      "strategy": "2000_sem_overlap",
+      "num_chunks": 29,
+      "avg_chunk_size": 1609.34,
+      "min_chunk_size": 509,
+      "max_chunk_size": 2045
+    },
+    {
+      "document": "escrita_academica_ia.md",
+      "document_id": "escrita_academica_ia",
+      "strategy": "1000_sem_overlap",
+      "num_chunks": 59,
+      "avg_chunk_size": 790.12,
+      "min_chunk_size": 72,
+      "max_chunk_size": 2045
+    },
+    {
+      "document": "gpt3_language_models.md",
+      "document_id": "gpt3_language_models",
+      "strategy": "markdown_heading",
+      "num_chunks": 64,
+      "avg_chunk_size": 4110.66,
+      "min_chunk_size": 8,
+      "max_chunk_size": 28327
+    },
+    {
+      "document": "gpt3_language_models.md",
+      "document_id": "gpt3_language_models",
+      "strategy": "2000_sem_overlap",
+      "num_chunks": 151,
+      "avg_chunk_size": 1735.89,
+      "min_chunk_size": 201,
+      "max_chunk_size": 3579
+    },
+    {
+      "document": "gpt3_language_models.md",
+      "document_id": "gpt3_language_models",
+      "strategy": "1000_sem_overlap",
+      "num_chunks": 306,
+      "avg_chunk_size": 855.71,
+      "min_chunk_size": 20,
+      "max_chunk_size": 3579
+    },
+    {
+      "document": "gpt4_technical_report.md",
+      "document_id": "gpt4_technical_report",
+      "strategy": "markdown_heading",
+      "num_chunks": 178,
+      "avg_chunk_size": 1654.88,
+      "min_chunk_size": 18,
+      "max_chunk_size": 23002
+    },
+    {
+      "document": "gpt4_technical_report.md",
+      "document_id": "gpt4_technical_report",
+      "strategy": "2000_sem_overlap",
+      "num_chunks": 168,
+      "avg_chunk_size": 1746.89,
+      "min_chunk_size": 378,
+      "max_chunk_size": 3366
+    },
+    {
+      "document": "gpt4_technical_report.md",
+      "document_id": "gpt4_technical_report",
+      "strategy": "1000_sem_overlap",
+      "num_chunks": 344,
+      "avg_chunk_size": 852.19,
+      "min_chunk_size": 2,
+      "max_chunk_size": 3366
+    },
+    {
+      "document": "instruct_gpt.md",
+      "document_id": "instruct_gpt",
+      "strategy": "markdown_heading",
+      "num_chunks": 99,
+      "avg_chunk_size": 1938.29,
+      "min_chunk_size": 18,
+      "max_chunk_size": 18591
+    },
+    {
+      "document": "instruct_gpt.md",
+      "document_id": "instruct_gpt",
+      "strategy": "2000_sem_overlap",
+      "num_chunks": 106,
+      "avg_chunk_size": 1803.8,
+      "min_chunk_size": 677,
+      "max_chunk_size": 1995
+    },
+    {
+      "document": "instruct_gpt.md",
+      "document_id": "instruct_gpt",
+      "strategy": "1000_sem_overlap",
+      "num_chunks": 229,
+      "avg_chunk_size": 833.94,
+      "min_chunk_size": 21,
+      "max_chunk_size": 1614
+    },
+    {
+      "document": "llama_foundation_models.md",
+      "document_id": "llama_foundation_models",
+      "strategy": "markdown_heading",
+      "num_chunks": 51,
+      "avg_chunk_size": 1802.78,
+      "min_chunk_size": 181,
+      "max_chunk_size": 21646
+    },
+    {
+      "document": "llama_foundation_models.md",
+      "document_id": "llama_foundation_models",
+      "strategy": "2000_sem_overlap",
+      "num_chunks": 51,
+      "avg_chunk_size": 1796.51,
+      "min_chunk_size": 1153,
+      "max_chunk_size": 1998
+    },
+    {
+      "document": "llama_foundation_models.md",
+      "document_id": "llama_foundation_models",
+      "strategy": "1000_sem_overlap",
+      "num_chunks": 112,
+      "avg_chunk_size": 817.06,
+      "min_chunk_size": 227,
+      "max_chunk_size": 1073
+    },
+    {
+      "document": "lora_low_rank_adaptation.md",
+      "document_id": "lora_low_rank_adaptation",
+      "strategy": "markdown_heading",
+      "num_chunks": 38,
+      "avg_chunk_size": 2370.76,
+      "min_chunk_size": 138,
+      "max_chunk_size": 13669
+    },
+    {
+      "document": "lora_low_rank_adaptation.md",
+      "document_id": "lora_low_rank_adaptation",
+      "strategy": "2000_sem_overlap",
+      "num_chunks": 51,
+      "avg_chunk_size": 1760.55,
+      "min_chunk_size": 1072,
+      "max_chunk_size": 1999
+    },
+    {
+      "document": "lora_low_rank_adaptation.md",
+      "document_id": "lora_low_rank_adaptation",
+      "strategy": "1000_sem_overlap",
+      "num_chunks": 108,
+      "avg_chunk_size": 830.46,
+      "min_chunk_size": 258,
+      "max_chunk_size": 1439
+    },
+    {
+      "document": "retrieval_augmented_generation.md",
+      "document_id": "retrieval_augmented_generation",
+      "strategy": "markdown_heading",
+      "num_chunks": 33,
+      "avg_chunk_size": 2203.7,
+      "min_chunk_size": 149,
+      "max_chunk_size": 23662
+    },
+    {
+      "document": "retrieval_augmented_generation.md",
+      "document_id": "retrieval_augmented_generation",
+      "strategy": "2000_sem_overlap",
+      "num_chunks": 43,
+      "avg_chunk_size": 1686.53,
+      "min_chunk_size": 615,
+      "max_chunk_size": 1992
+    },
+    {
+      "document": "retrieval_augmented_generation.md",
+      "document_id": "retrieval_augmented_generation",
+      "strategy": "1000_sem_overlap",
+      "num_chunks": 89,
+      "avg_chunk_size": 813.85,
+      "min_chunk_size": 326,
+      "max_chunk_size": 1618
+    },
+    {
+      "document": "scaling_laws_llm.md",
+      "document_id": "scaling_laws_llm",
+      "strategy": "markdown_heading",
+      "num_chunks": 49,
+      "avg_chunk_size": 1943.73,
+      "min_chunk_size": 243,
+      "max_chunk_size": 10638
+    },
+    {
+      "document": "scaling_laws_llm.md",
+      "document_id": "scaling_laws_llm",
+      "strategy": "2000_sem_overlap",
+      "num_chunks": 53,
+      "avg_chunk_size": 1789.96,
+      "min_chunk_size": 682,
+      "max_chunk_size": 1997
+    },
+    {
+      "document": "scaling_laws_llm.md",
+      "document_id": "scaling_laws_llm",
+      "strategy": "1000_sem_overlap",
+      "num_chunks": 115,
+      "avg_chunk_size": 823.94,
+      "min_chunk_size": 354,
+      "max_chunk_size": 1063
+    },
+    {
+      "document": "twitter_algoritmo.md",
+      "document_id": "twitter_algoritmo",
+      "strategy": "markdown_heading",
+      "num_chunks": 19,
+      "avg_chunk_size": 3098.95,
+      "min_chunk_size": 144,
+      "max_chunk_size": 10145
+    },
+    {
+      "document": "twitter_algoritmo.md",
+      "document_id": "twitter_algoritmo",
+      "strategy": "2000_sem_overlap",
+      "num_chunks": 35,
+      "avg_chunk_size": 1675.69,
+      "min_chunk_size": 332,
+      "max_chunk_size": 1997
+    },
+    {
+      "document": "twitter_algoritmo.md",
+      "document_id": "twitter_algoritmo",
+      "strategy": "1000_sem_overlap",
+      "num_chunks": 76,
+      "avg_chunk_size": 770.63,
+      "min_chunk_size": 251,
+      "max_chunk_size": 1343
+    }
+  ],
+  "total_documentos": 12,
+  "estrategias": [
+    "markdown_heading",
+    "2000_sem_overlap",
+    "1000_sem_overlap"
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "modelo": "sentence-transformers/all-MiniLM-L6-v2",
+  "perguntas": [
+    "O que é Retrieval-Augmented Generation e como funciona?",
+    "Como funciona o mecanismo de atenção do Transformer?",
+    "O que é pré-treinamento do BERT?",
+    "O que é fine-tuning e como o LoRA reduz o número de parâmetros treináveis?",
+    "Como modelos de linguagem grandes são treinados?",
+    "Quais são os princípios éticos relacionados ao uso de inteligência artificial?",
+    "Como a inteligência artificial pode ser utilizada na escrita acadêmica?",
+    "Quais são as limitações dos modelos GPT-4?"
+  ],
+  "resultados": {
+    "markdown_heading": [
+      {
+        "pergunta": "O que é Retrieval-Augmented Generation e como funciona?",
+        "melhor_similaridade": 0.46147877426313344,
+        "media_top5": 0.431965097634908,
+        "melhor_documento": "retrieval_augmented_generation.json",
+        "melhor_chunk": 31
+      },
+      {
+        "pergunta": "Como funciona o mecanismo de atenção do Transformer?",
+        "melhor_similaridade": 0.40950118982247824,
+        "media_top5": 0.393005592697467,
+        "melhor_documento": "bioetica_e_ia.json",
+        "melhor_chunk": 10
+      },
+      {
+        "pergunta": "O que é pré-treinamento do BERT?",
+        "melhor_similaridade": 0.42478235048210505,
+        "media_top5": 0.4093647193041766,
+        "melhor_documento": "bioetica_e_ia.json",
+        "melhor_chunk": 20
+      },
+      {
+        "pergunta": "O que é fine-tuning e como o LoRA reduz o número de parâmetros treináveis?",
+        "melhor_similaridade": 0.5191629744261805,
+        "media_top5": 0.4766883033262874,
+        "melhor_documento": "escrita_academica_ia.json",
+        "melhor_chunk": 11
+      },
+      {
+        "pergunta": "Como modelos de linguagem grandes são treinados?",
+        "melhor_similaridade": 0.5619353684367653,
+        "media_top5": 0.49936743675895673,
+        "melhor_documento": "twitter_algoritmo.json",
+        "melhor_chunk": 11
+      },
+      {
+        "pergunta": "Quais são os princípios éticos relacionados ao uso de inteligência artificial?",
+        "melhor_similaridade": 0.6439519654931772,
+        "media_top5": 0.6033927349184729,
+        "melhor_documento": "escrita_academica_ia.json",
+        "melhor_chunk": 2
+      },
+      {
+        "pergunta": "Como a inteligência artificial pode ser utilizada na escrita acadêmica?",
+        "melhor_similaridade": 0.6839481492236287,
+        "media_top5": 0.6430171009723833,
+        "melhor_documento": "escrita_academica_ia.json",
+        "melhor_chunk": 0
+      },
+      {
+        "pergunta": "Quais são as limitações dos modelos GPT-4?",
+        "melhor_similaridade": 0.47554937375845135,
+        "media_top5": 0.43235834972528453,
+        "melhor_documento": "bioetica_e_ia.json",
+        "melhor_chunk": 20
+      }
+    ],
+    "2000_sem_overlap": [
+      {
+        "pergunta": "O que é Retrieval-Augmented Generation e como funciona?",
+        "melhor_similaridade": 0.42920808294111884,
+        "media_top5": 0.41950795413478537,
+        "melhor_documento": "bioetica_e_ia.json",
+        "melhor_chunk": 12
+      },
+      {
+        "pergunta": "Como funciona o mecanismo de atenção do Transformer?",
+        "melhor_similaridade": 0.45005943983560004,
+        "media_top5": 0.4348901782430044,
+        "melhor_documento": "bioetica_e_ia.json",
+        "melhor_chunk": 15
+      },
+      {
+        "pergunta": "O que é pré-treinamento do BERT?",
+        "melhor_similaridade": 0.4244887171712875,
+        "media_top5": 0.40557808301223536,
+        "melhor_documento": "escrita_academica_ia.json",
+        "melhor_chunk": 12
+      },
+      {
+        "pergunta": "O que é fine-tuning e como o LoRA reduz o número de parâmetros treináveis?",
+        "melhor_similaridade": 0.5159422012967262,
+        "media_top5": 0.503616333614213,
+        "melhor_documento": "escrita_academica_ia.json",
+        "melhor_chunk": 11
+      },
+      {
+        "pergunta": "Como modelos de linguagem grandes são treinados?",
+        "melhor_similaridade": 0.6025773796109755,
+        "media_top5": 0.5577220336897643,
+        "melhor_documento": "escrita_academica_ia.json",
+        "melhor_chunk": 6
+      },
+      {
+        "pergunta": "Quais são os princípios éticos relacionados ao uso de inteligência artificial?",
+        "melhor_similaridade": 0.6417065640829895,
+        "media_top5": 0.6171663295052758,
+        "melhor_documento": "bioetica_e_ia.json",
+        "melhor_chunk": 6
+      },
+      {
+        "pergunta": "Como a inteligência artificial pode ser utilizada na escrita acadêmica?",
+        "melhor_similaridade": 0.6298194260452312,
+        "media_top5": 0.6117313459996705,
+        "melhor_documento": "escrita_academica_ia.json",
+        "melhor_chunk": 1
+      },
+      {
+        "pergunta": "Quais são as limitações dos modelos GPT-4?",
+        "melhor_similaridade": 0.47357521945114467,
+        "media_top5": 0.4560388608150695,
+        "melhor_documento": "bioetica_e_ia.json",
+        "melhor_chunk": 30
+      }
+    ],
+    "1000_sem_overlap": [
+      {
+        "pergunta": "O que é Retrieval-Augmented Generation e como funciona?",
+        "melhor_similaridade": 0.45568493414526784,
+        "media_top5": 0.44313302135597105,
+        "melhor_documento": "retrieval_augmented_generation.json",
+        "melhor_chunk": 33
+      },
+      {
+        "pergunta": "Como funciona o mecanismo de atenção do Transformer?",
+        "melhor_similaridade": 0.46107395484107283,
+        "media_top5": 0.4357865922617223,
+        "melhor_documento": "twitter_algoritmo.json",
+        "melhor_chunk": 11
+      },
+      {
+        "pergunta": "O que é pré-treinamento do BERT?",
+        "melhor_similaridade": 0.4299320311230086,
+        "media_top5": 0.422364499752306,
+        "melhor_documento": "escrita_academica_ia.json",
+        "melhor_chunk": 35
+      },
+      {
+        "pergunta": "O que é fine-tuning e como o LoRA reduz o número de parâmetros treináveis?",
+        "melhor_similaridade": 0.5252476646226405,
+        "media_top5": 0.5137812603443314,
+        "melhor_documento": "twitter_algoritmo.json",
+        "melhor_chunk": 46
+      },
+      {
+        "pergunta": "Como modelos de linguagem grandes são treinados?",
+        "melhor_similaridade": 0.6867471625863869,
+        "media_top5": 0.5926115720623215,
+        "melhor_documento": "escrita_academica_ia.json",
+        "melhor_chunk": 28
+      },
+      {
+        "pergunta": "Quais são os princípios éticos relacionados ao uso de inteligência artificial?",
+        "melhor_similaridade": 0.7086363768348813,
+        "media_top5": 0.6314652805514334,
+        "melhor_documento": "escrita_academica_ia.json",
+        "melhor_chunk": 19
+      },
+      {
+        "pergunta": "Como a inteligência artificial pode ser utilizada na escrita acadêmica?",
+        "melhor_similaridade": 0.6779641374222984,
+        "media_top5": 0.6313680695040901,
+        "melhor_documento": "escrita_academica_ia.json",
+        "melhor_chunk": 19
+      },
+      {
+        "pergunta": "Quais são as limitações dos modelos GPT-4?",
+        "melhor_similaridade": 0.48245822373142633,
+        "media_top5": 0.46996284783256603,
+        "melhor_documento": "bioetica_e_ia.json",
+        "melhor_chunk": 42
+      }
+    ]
+  },
+  "resumo": {
+    "markdown_heading": {
+      "media_melhor_similaridade": 0.5225387682382401,
+      "media_top5": 0.48614491691724204,
+      "quantidade_chunks": 630
+    },
+    "2000_sem_overlap": {
+      "media_melhor_similaridade": 0.5209221288043842,
+      "media_top5": 0.5007813898767522,
+      "quantidade_chunks": 780
+    },
+    "1000_sem_overlap": {
+      "media_melhor_similaridade": 0.5534680606633728,
+      "media_top5": 0.5175591429580928,
+      "quantidade_chunks": 1637
+    }
+  }
+}

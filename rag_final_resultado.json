@@ -1,0 +1,56 @@
+{
+  "pergunta": "O que é Retrieval-Augmented Generation e como funciona?",
+  "modelo_llm": "Qwen/Qwen2.5-0.5B-Instruct",
+  "modelo_embeddings": "sentence-transformers/all-MiniLM-L6-v2",
+  "estrategia": "1000_sem_overlap",
+  "top_k": 5,
+  "resposta": "O Retrovira-Augmented Generation (RAG) é uma técnica de gerenciamento de informação que permite que os modelos de inteligência artificial aprendam a recuperar documentos relacionados a uma pergunta ou questão baseado em seu próprio histórico de aprendizado. O objetivo principal da RAG é criar uma lista de documentos relevantes para uma pergunta ou questão baseada em sua própria experiência de aprendizado, sem precisar recorrer ao banco de dados de texto completo. \n\nA RAG pode ser vista como uma maneira de melhorar a eficiência e a precisão dos modelos de inteligência artificial em tarefas onde a informação disponível é limitada, como a classificação de questões ou respostas a perguntas. \n\nA RAG é composta por dois principais componentes: o retriever e o index. O retriever é responsável por recuperar documentos relevantes para uma pergunta ou resposta baseado em seu próprio histórico de aprendizado, enquanto o index é usado para armazenar e acessar esses documentos. \n\nA RAG é capaz de aprender a recuperar documentos relacionados a uma pergunta ou resposta baseado em seu próprio histórico de aprendizado, sem precisar",
+  "resultados_recuperacao": [
+    {
+      "arquivo": "retrieval_augmented_generation.json",
+      "chunk_id": 33,
+      "similaridade": 0.45568495988845825
+    },
+    {
+      "arquivo": "retrieval_augmented_generation.json",
+      "chunk_id": 44,
+      "similaridade": 0.45542746782302856
+    },
+    {
+      "arquivo": "retrieval_augmented_generation.json",
+      "chunk_id": 88,
+      "similaridade": 0.43942615389823914
+    },
+    {
+      "arquivo": "retrieval_augmented_generation.json",
+      "chunk_id": 41,
+      "similaridade": 0.435918390750885
+    },
+    {
+      "arquivo": "bioetica_e_ia.json",
+      "chunk_id": 27,
+      "similaridade": 0.42920804023742676
+    }
+  ],
+  "chunks_contextuais": [
+    31,
+    32,
+    33,
+    34,
+    35,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    86,
+    87,
+    88
+  ],
+  "total_chunks_contextuais": 16,
+  "caracteres_contexto": 12783,
+  "data_execucao": "2026-08-13T16:31:00.166855"
+}
