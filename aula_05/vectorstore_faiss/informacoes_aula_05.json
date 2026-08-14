@@ -1,0 +1,13 @@
+{
+  "aula": "Aula 05",
+  "modelo_embedding": "sentence-transformers/all-MiniLM-L6-v2",
+  "vectorstore": "FAISS",
+  "quantidade_documents": 361,
+  "pergunta_teste_1": "What is Retrieval-Augmented Generation and what are its main advantages?",
+  "resultados_teste_1": 5,
+  "pergunta_teste_2": "How does the retriever work in a RAG model?",
+  "resultados_teste_2": 3,
+  "filtro_testado": {
+    "estrategia": "Grupo 1 - 200 sem overlap"
+  }
+}
