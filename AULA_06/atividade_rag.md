@@ -211,13 +211,13 @@ A escolha será validada com perguntas reais de suporte e comparação entre con
 
 # Parte 6 — Embeddings
 
-O modelo escolhido é o **BAAI/bge-m3**. Ele possui dimensão de 1024 e suporta entradas de até 8192 tokens, além de mais de 100 idiomas. O modelo também suporta diferentes formas de recuperação, incluindo dense e sparse retrieval. citeturn0search0turn0academia24
+O modelo escolhido é o **BAAI/bge-m3**. Ele possui dimensão de 1024 e suporta entradas de até 8192 tokens, além de mais de 100 idiomas. O modelo também suporta diferentes formas de recuperação, incluindo dense e sparse retrieval. 
 
 A escolha faz sentido porque a documentação da empresa pode conter português, inglês, nomes técnicos, códigos e termos específicos. O modelo pode ser executado localmente, o que é interessante para uma empresa que não queira enviar documentação interna para uma API externa.
 
 Também foi considerada uma alternativa baseada em embeddings via API, mas para este cenário a possibilidade de manter o processamento local pesa a favor do BGE-M3. A decisão final ainda deveria ser validada com um conjunto de perguntas reais da empresa.
 
-O tamanho do embedding não determina sozinho o tamanho do chunk. Porém, o limite de 8192 tokens do BGE-M3 mostra que o modelo aceita textos longos; mesmo assim, não é desejável usar chunks enormes. O objetivo do chunking é recuperar unidades de informação coerentes, não simplesmente ocupar o limite máximo do modelo. citeturn0search0
+O tamanho do embedding não determina sozinho o tamanho do chunk. Porém, o limite de 8192 tokens do BGE-M3 mostra que o modelo aceita textos longos; mesmo assim, não é desejável usar chunks enormes. O objetivo do chunking é recuperar unidades de informação coerentes, não simplesmente ocupar o limite máximo do modelo. 
 
 ---
 
@@ -525,15 +525,15 @@ A avaliação será feita com perguntas reais, verificando se os chunks recupera
 
 # Parte 6 — Embeddings
 
-Também será utilizado o **BAAI/bge-m3**. O modelo é multilíngue, suporta mais de 100 idiomas, possui dimensão 1024 e aceita entradas de até 8192 tokens. Além da recuperação densa, o BGE-M3 suporta mecanismos de recuperação esparsa e multi-vector. citeturn0search0turn0academia24
+Também será utilizado o **BAAI/bge-m3**. O modelo é multilíngue, suporta mais de 100 idiomas, possui dimensão 1024 e aceita entradas de até 8192 tokens. Além da recuperação densa, o BGE-M3 suporta mecanismos de recuperação esparsa e multi-vector. 
 
 A escolha é adequada porque os laudos são escritos principalmente em português, mas podem conter nomes de equipamentos, termos técnicos e documentação em inglês. Outro ponto importante é a possibilidade de execução local, que reduz a necessidade de enviar laudos e informações privadas da empresa para uma API externa.
 
 Foi considerada a utilização de um serviço de embeddings por API, mas neste cenário a privacidade pesa mais na decisão. Como a base contém laudos e histórico de serviços, prefiro inicialmente uma solução local, desde que a infraestrutura da empresa consiga suportar o modelo.
 
-O limite de entrada também influencia o chunking. Apesar de o modelo suportar até 8192 tokens, os chunks escolhidos são muito menores. Isso é intencional: o objetivo é que cada vetor represente uma unidade de informação recuperável, e não um laudo inteiro. citeturn0search0
+O limite de entrada também influencia o chunking. Apesar de o modelo suportar até 8192 tokens, os chunks escolhidos são muito menores. Isso é intencional: o objetivo é que cada vetor represente uma unidade de informação recuperável, e não um laudo inteiro. 
 
-Uma possibilidade futura é utilizar recuperação híbrida. A própria documentação do BGE-M3 recomenda combinar recuperação híbrida com reranking, especialmente quando termos exatos também são importantes. Isso seria útil para nomes e modelos de equipamentos, códigos e unidades de medida. citeturn0search0
+Uma possibilidade futura é utilizar recuperação híbrida. A própria documentação do BGE-M3 recomenda combinar recuperação híbrida com reranking, especialmente quando termos exatos também são importantes. Isso seria útil para nomes e modelos de equipamentos, códigos e unidades de medida. 
 
 ---
 
